@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'frutigerltarabic';
+	src: url('fonts/frutigerltarabic-45light.eot'); /* IE9 Compat Modes */
+	src: url('fonts/frutigerltarabic-45light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('fonts/frutigerltarabic-45light.otf') format('opentype'), /* Other browsers */
+		url('fonts/frutigerltarabic-45light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/frutigerltarabic-45light.woff') format('woff'), /* Pretty Modern Browsers */
+		url('fonts/frutigerltarabic-45light.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('fonts/frutigerltarabic-45light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'gess-light';
+	src: url('fonts/ge-ss-text-light.eot'); /* IE9 Compat Modes */
+	src: url('fonts/ge-ss-text-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('fonts/ge-ss-text-light.otf') format('opentype'), /* Other browsers */
+		url('fonts/ge-ss-text-light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/ge-ss-text-light.woff') format('woff'), /* Pretty Modern Browsers */
+		url('fonts/ge-ss-text-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('fonts/ge-ss-text-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'gess-bold';
+	src: url('fonts/ge-ss-two-bold.eot'); /* IE9 Compat Modes */
+	src: url('fonts/ge-ss-two-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('fonts/ge-ss-two-bold.otf') format('opentype'), /* Other browsers */
+		url('fonts/ge-ss-two-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/ge-ss-two-bold.woff') format('woff'), /* Pretty Modern Browsers */
+		url('fonts/ge-ss-two-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('fonts/ge-ss-two-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+*{
+	color: #d9d9d9;
+	text-shadow: 0 0px 1px #091b27;
+}
+body{
+	font-family: frutigerltarabic;
+	background: #091b27;
+}
+
+.home {position: relative;}
+.home .in {
+    overflow: hidden;
+    display: none;
+	transition: top 1s;
+	-webkit-transition: top 1s;
+	transition-timing-function: linear;
+	-webkit-transition-timing-function: linear;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.home .in div:first-child{
+    width: 302px;
+	box-shadow: unset;
+    margin: 0 auto;
+}
+.home .in div{
+	width:100%;
+}
+.home .in div img{width:100%;}
+
+.home .in .extension {
+    width: 200px;
+    height: 327px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #b5cace80;
+    box-shadow: 0 0 20px #abd2d9;
+    overflow: hidden;
+	display:none;
+    margin: 25px auto;
+	position: relative;
+}
+.home .in .extension img:first-child{display:block;}
+.home .in .extension img{
+	display:none;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.home .in p {
+    font-size: 2em;
+    text-align: center;
+}
+.home .in .link {
+    font-size: 20px;
+	display: none;
+}
+.home .in .link i {
+    color: #333;
+    font-size: 30px;
+    text-shadow: 0 0 20px #fff;
+    margin-top: -13px;
+    margin-left: 10px;
+}
+footer {
+    border-top: 1px solid #000;
+    background: #071017;
+	padding-top: 5px;
+	display:none;
+}
+footer i {color: #de3333;}
+footer span {color: #de3333;}
+footer .addmefastBot img {
+    width: 150px;
+    margin-top: -34px;
+    margin-right: 4px;
+}
+footer .github {
+    width: 220px;
+    overflow: hidden;
+	margin: 3px 0 0 5px;
+}
+footer .addmefastBot,
+footer .github,
+footer p,
+footer img {float:left;}
+footer .github p {
+    line-height: 1;
+    margin-right: 5px;
+}
+footer .github img {
+    width: 50px;
+}
+
+@media (max-width: 420px){
+	.home .in div:first-child {width: 200px;}
+	.home .in p {font-size: 1em;}
+}
