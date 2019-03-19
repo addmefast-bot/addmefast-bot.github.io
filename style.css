@@ -2,7 +2,7 @@
 	font-family: 'frutigerltarabic';
 	src: url('fonts/frutigerltarabic-45light.eot'); /* IE9 Compat Modes */
 	src: url('fonts/frutigerltarabic-45light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		url('fonts/frutigerltarabic-45light.otf') format('opentype'), /* Other browsers */
+		url('fonts/FrutigerLTArabic-45Light.otf') format('opentype'), /* Other browsers */
 		url('fonts/frutigerltarabic-45light.woff2') format('woff2'), /* Super Modern Browsers */
 		url('fonts/frutigerltarabic-45light.woff') format('woff'), /* Pretty Modern Browsers */
 		url('fonts/frutigerltarabic-45light.ttf')  format('truetype'), /* Safari, Android, iOS */
